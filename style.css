@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+html{
+ color: #2F4F4F;
+}
+
+.container {
+  font: 16px 'Lora', sans-serif;
+  font-weight: bold;
+  width: auto;
+}
+
+.card1 {
+  background-color: #9BD5D8;
+  border-radius: 15px;
+  padding: 0 0 5px 10px;
+}
+
+.card2{
+  background-color:#9BD5D8;
+  border-radius: 15px;
+  padding: 0 0 5px 10px;
+}  
+
+footer {
+  margin-top: 9px;
+}
