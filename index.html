@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="first experience, html, css, course, tags">
-  <meta name="description" content="Сайт-визитка для курса Владилена Милина. Март 2022">
-
+  <meta name="description" content="Сайт-визитка для курса Владилена Милина. Март - Апрель 2022">
   <title>Andy resume</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-  <header>
-     <h1>Рад видеть вас на своём первом сайте!</h1>
-      </header>
-        <div >
-          <img src="images/AT.jpg" alt="No picture!" width="15%" >
+    <header>
+    <img class="photo" src="images/AT.jpg" alt="No picture!" width="15%" >
+    </header>
+      <div class="container">  
+        <div>
+         <p>Всем привет! Меня зовут Андрей, и я - начинающий web-программист. Сейчас я работаю учителем английского языка в средней школе, и эта работа мне, в принципе, нравится. Но захотелось нового, так сказать, вызова для себя. И вот я здесь!
+         </p>
         </div>
-          <div class="card">
-            <p>Всем привет! Меня зовут Андрей, и я - начинающий web-программист. Сейчас я работаю учителем английского языка в средней школе, и эта работа мне, в принципе, нравится. Но захотелось нового, так сказать, вызова для себя. И вот я здесь!
-             </p>
-          </div>
-    <div class="card1"><ul> Мои увлечения
-    <li>Я люблю смотреть футбол и уже более 20 лет поддерживаю <strong>Манчестер Юнайтед</strong></li>
+          <div class="card1">
+            <h2>Мои увлечения</h2>
+              <ul class="list"> 
+    <li>Я люблю смотреть футбол и уже более 20 лет поддерживаю <a href="http://www.manutd.ru/">Манчестер Юнайтед</a></li>
     <li>Я просто обожаю рок-музыку. В машине, в наушниках, гуляя на прогулке, она всюду сопровождает меня.</li>
     <li>Книги. Сколько чудесных и захватывающих книг прочёл в своей жизни, а ещё масса впереди!</li>
-    <li>Игры. Я любитель RPG жанра. <strong>Diablo</strong>, <strong>Sacred</strong> и иже с ними. Люблю и иногда провожу в них свободное время.</li>
+    <li>Игры. Я любитель RPG жанра. <a href="https://ru.wikipedia.org/wiki/Diablo_(%D0%B8%D0%B3%D1%80%D0%B0)" target="_blank">Diablo</a>, <a href="https://sacred.fandom.com/ru/wiki/Sacred" target="_blank">Sacred</a>  и иже с ними. Люблю и иногда провожу в них свободное время.</li>
   </ul>
 </div>
   
-  <div class="card2"><h3>Опыт работы</h3>
+  <div class="card2">
+    <h2>Опыт работы</h2>
   <table>
     <thead>
       <tr>
@@ -54,20 +53,21 @@
   </table>
 </div>
   <footer>
-    <span>
-      <a href="https://www.instagram.com/solidarenat/"><img src="images/inst.png" alt="no picture" title="Instagram" width="33px" height="33px"></a>
-      <a href="https://vk.com/atwriter"> <img src="images/vk.png" alt="no picture" title="VK" width="33px" height="33px"></a>
-  </span>
-    
     <form>
-      <label id="name">Ваше имя:</label>
+      <label for="name">Ваше имя:</label>
       <input type="text" id="name" placeholder="Имя">
-      <label id="email">Ваш email</label>
+      <br>
+      <label for="email">Ваш email:</label>
       <input type="email" id="email" placeholder="Email"><br>
-      <label id="message">Введите ваше сообщение</label><br>
-      <textarea id="message" cols="25" rows="8" placeholder="Введите ваше сообщение"></textarea><br>
-      <input type="button" value="Отправить!">
+      <label for="message">Введите ваше сообщение:</label><br>
+      <textarea id="message" cols="35" rows="8" placeholder="Введите ваше сообщение"></textarea><br>
+      <input type="button" value="Отправить!" class="btn">
     </form>
+    <hr>
+    <span>
+      <a href="https://www.instagram.com/solidarenat/" target="_blank"><img src="images/inst.png" alt="no picture" title="Instagram" width="33px" height="33px"></a>
+      <a href="https://vk.com/atwriter" target="_blank"> <img src="images/vk.png" alt="no picture" title="VK" width="33px" height="33px"></a>
+  </span>
   </footer>
 </div> 
 </body>
