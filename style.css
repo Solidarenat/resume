@@ -20,7 +20,7 @@ a:hover {
   font-size: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   a:hover {
    font-size: 14px;
   }
@@ -36,7 +36,7 @@ a:hover {
   box-shadow: 5px 5px 10px #2F4F4F;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   .photo {
     display: block;
     margin: auto;
@@ -55,7 +55,7 @@ a:hover {
   margin: auto;
     }
 
- @media (max-width: 650px) {
+ @media (max-width: 550px) {
    .container {
      font: 13px 'Lora', sans-serif;
      font-weight: bold;
