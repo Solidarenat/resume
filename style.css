@@ -1,27 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-html{
- color: #2F4F4F;
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+
+html {
+    background-color: #BCD9E0;
+    }
+
+a {
+  color: white;
+  text-decoration: wavy;
+}
+
+a:hover {
+  color: blue;
+  font-size: 20px;
+}
+
+.photo {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 230px;
+  height: 320px;
+  border-radius: 15%;
+  box-shadow: 5px 5px 10px #2F4F4F;
 }
 
 .container {
-  font: 16px 'Lora', sans-serif;
-  font-weight: bold;
-  width: auto;
-}
+  font: 17px 'Lora', sans-serif;
+    font-weight: bold;
+  width: 600px;
+  margin: auto;
+  }
 
 .card1 {
-  background-color: #9BD5D8;
+  background-color: #60CCB1;
   border-radius: 15px;
   padding: 0 0 5px 10px;
+  margin: 5px 0px 5px 0px;
+}
+.list {
+  padding: 0 15px;
+}
+
+h2 {
+ justify-content: center;
+ align-items: center;
+ text-align: center;
 }
 
 .card2{
-  background-color:#9BD5D8;
+  background-color: #60CCB1;
   border-radius: 15px;
   padding: 0 0 5px 10px;
+  margin: 5px 0px 5px 0px;
 }  
 
 footer {
   margin-top: 9px;
 }
+
+.btn {
+  background-color: #60CCB1;
+  }
