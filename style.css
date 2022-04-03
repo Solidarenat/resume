@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
+
 * {
   margin: 0px;
   padding: 0px;
@@ -19,22 +20,49 @@ a:hover {
   font-size: 20px;
 }
 
+@media (max-width: 650px) {
+  a:hover {
+   font-size: 14px;
+  }
+}
+
 .photo {
   display: block;
   margin: auto;
   margin-bottom: 10px;
-  width: 230px;
-  height: 320px;
+  width: 250px;
+  height: 360px;
   border-radius: 15%;
   box-shadow: 5px 5px 10px #2F4F4F;
 }
 
+@media (max-width: 650px) {
+  .photo {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 125px;
+    height: 180px;
+    border-radius: 7%;
+    box-shadow: none;
+  }
+}
+
 .container {
   font: 17px 'Lora', sans-serif;
-    font-weight: bold;
-  width: 600px;
+  font-weight: bold;
+  width: 500px;
   margin: auto;
-  }
+    }
+
+ @media (max-width: 650px) {
+   .container {
+     font: 13px 'Lora', sans-serif;
+     font-weight: bold;
+     width: 400px;
+     margin: auto;
+   }
+ }   
 
 .card1 {
   background-color: #60CCB1;
@@ -42,9 +70,14 @@ a:hover {
   padding: 0 0 5px 10px;
   margin: 5px 0px 5px 0px;
 }
+
+
 .list {
-  padding: 0 15px;
+  padding: 0 0 0 28px;
+  margin: 0;
+  list-style: decimal-leading-zero;
 }
+
 
 h2 {
  justify-content: center;
@@ -59,10 +92,26 @@ h2 {
   margin: 5px 0px 5px 0px;
 }  
 
+.table {
+  width: 100%;
+}
+
+.table th{
+  text-align: left;
+}
+
 footer {
   margin-top: 9px;
 }
 
 .btn {
   background-color: #60CCB1;
+  padding: 5px 7px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   }
+
+.btn:hover {
+  opacity: 0.6;
+}
